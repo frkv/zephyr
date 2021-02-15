@@ -27,4 +27,9 @@ config ENTROPY_HAS_DRIVER
 	  This is an option to be enabled by individual entropy driver
 	  to signal that there is a true entropy driver.
 
+config ENTROPY_SUPPORT_CSPRNG
+	bool
+	  This is a option signalling that the entropy driver support
+	  Cryptographically Secure PRNG.
+
 endif
