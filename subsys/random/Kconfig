@@ -92,7 +92,7 @@ config CTR_DRBG_CSPRNG_GENERATOR
 	select TINYCRYPT_AES if TINYCRYPT
 	help
 	  Enables the CTR_DRBG pseudo-random number generator. This CSPRNG
-	  shall use the entropy API for an initialization seed. The CTR_DRBG
+	  shall use the entropy API for seeding. The CTR_DRBG
 	  is a a FIPS140-2 recommended cryptographically secure random number
 	  generator.
 
